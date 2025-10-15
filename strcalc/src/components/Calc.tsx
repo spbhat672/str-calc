@@ -12,13 +12,11 @@ const Calc = () => {
 
     return (
         <>
-            <div>
-                <div style={{ height: '40vmin' }}>
+            <div style={{ height: '40vmin' }}>
                     <div className='d-flex align-items-center justify-content-between'>
                         <input onChange={(e) => setVal(e.target.value)} style={{ marginRight: '10px' }} />
                         <button style={{ marginLeft: '10px' }} onClick={handleClick}>Submit</button>
                     </div>
-                </div>
                 <div className='mt-3'>
                     <label className='d-flex align-items-center justify-content-center'>{result}</label>
                 </div>
