@@ -63,7 +63,7 @@ export function addNumbers(input: string): number {
   }
 
   if (negatives.length > 0) {
-    throw new Error(`Negatives not allowed: ${negatives.join(", ")}`);
+    throw new Error(`Negative numbers not allowed: ${negatives.join(", ")}`);
   }
 
   return numbers.reduce((acc, v) => acc + v, 0);
